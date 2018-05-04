@@ -2,7 +2,7 @@
 Contributors: Zaglov, imbaa
 Tags: affiliate
 Requires at least: 4.5.0
-Stable tag: 1.7.22
+Stable tag: 1.9.2
 
 Affilipus Plug-In
 
@@ -11,6 +11,10 @@ Affilipus Plug-In
 Affilipus Plug-In
 
 == Changelog ==
+
+= 1.9.2 =
+
+* Removed Plugin Updater
 
 = 1.9.1 =
 

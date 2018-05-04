@@ -29,14 +29,6 @@ class setupAdmin {
 
         new \imbaa\Affilipus\Admin\AdminPages\AffilipusShops();
 
-        require IMBAF_PLUGIN_PATH . 'update-checker/plugin-update-checker.php';
-
-        \PucFactory::buildUpdateChecker(
-            'https://update.affilipus.com/?action=get_metadata&slug=affilipus', //Metadata URL.
-            IMBAF_PLUGIN_PATH.'affilipus.php', //Full path to the main plugin file.
-            'affilipus' //Plugin slug. Usually it's the same as the name of the directory.
-        );
-
     }
 
 }
