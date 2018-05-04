@@ -1,0 +1,11 @@
+.widget.imbaf_product_recommendation .product-title {
+  font-size: 18px;
+}
+.widget.imbaf_product_recommendation .imbaf-product-picture-container img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+.widget.imbaf_product_recommendation .imbaf-price-container {
+  margin: 10px 0;
+}

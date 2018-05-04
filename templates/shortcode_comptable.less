@@ -1,0 +1,244 @@
+.imbaf-comptable {
+
+  //border-width: 0;
+  font-size: 14px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color :#fff;
+
+  table-layout: fixed !important;
+  width: 100% !important;
+
+  tr {
+
+    td, th {
+
+      border: 1px solid #ccc !important;
+      padding: 5px;
+
+    }
+
+  }
+
+  .borderless {
+    border-top-width:0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+  }
+
+  .imbaf-price-container {
+
+    padding: 10px;
+
+  }
+
+  .product-picture {
+
+    overflow: hidden;
+
+    .image-container {
+
+      margin: 10px;
+      background-size: 80% auto;
+      background-size: contain;
+
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-origin: padding-box;
+
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      opacity: 0;
+    }
+
+  }
+
+  .product-name {
+
+    line-height: 18px;
+
+  }
+
+  .table-cell-highlight {
+
+    background-color: #e8f2fe;
+
+  }
+
+  td.buttons .affilipus-button {
+
+
+    box-shadow: none;
+
+    i {
+      position: static;
+    }
+
+  }
+
+  .preisvergleich_display {
+
+    position: relative;
+
+
+    .preisvergleich_toggle_show {
+
+      display: block;
+
+    }
+
+    .preisvergleich_toggle_hide {
+
+      display: none;
+
+    }
+
+    .preisvergleich_toggle_hide, .preisvergleich_toggle_show {
+
+
+      color:#000;
+      text-decoration:none;
+      box-shadow: none;
+
+    }
+
+  }
+
+  .preisvergleich-table {
+
+    border: 1px solid #ccc;
+    margin: 10px 0 0 0;
+    display: none;
+
+
+
+    tr, td, th {
+
+      background-color:#fff;
+      border: 0px !important;
+
+    }
+
+
+    .price-cell {
+
+      text-align:center;
+
+    }
+
+    .logo-cell {
+
+      text-align:center;
+
+    }
+
+
+  }
+
+  .imbaf-price-container {
+
+    .preisvergleich_toggle_show {
+
+      display: block;
+
+    }
+
+    .preisvergleich_toggle_hide {
+
+      display: none;
+
+    }
+
+  }
+
+
+  .imbaf-price-container.preisvergleich-active {
+
+
+   .preisvergleich-table {
+
+     display: block;
+
+   }
+
+    .preisvergleich_toggle_show {
+
+      display: none;
+
+    }
+
+    .preisvergleich_toggle_hide {
+
+      display: block;
+
+    }
+
+  }
+
+
+
+}
+
+.comptable-container {
+
+
+  background-color:#fff;
+
+
+
+
+}
+
+
+.imbaf-comptable-desktop {
+
+
+  .preisvergleich-table {
+
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    margin-top: 10px;
+    display:none;
+
+  }
+
+}
+
+
+@media screen and (min-width: 600px){
+
+  .comptable-container {
+
+
+    .imbaf-comptable-mobile {
+
+      display:none;
+
+    }
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 599px){
+
+  .comptable-container {
+
+
+    .imbaf-comptable-desktop {
+
+      display:none;
+
+    }
+
+  }
+
+
+}

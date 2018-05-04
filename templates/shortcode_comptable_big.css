@@ -1,0 +1,46 @@
+.comptable-big-container {
+  overflow-x: scroll;
+  background-color: #fff;
+}
+.comptable-big-container table.imbaf_table {
+  padding: 0px;
+  margin: 0px;
+  table-layout: fixed;
+}
+.comptable-big-container table.imbaf_table td,
+.comptable-big-container table.imbaf_table th {
+  width: 200px;
+  font-weight: normal;
+}
+.comptable-big-container table.imbaf_table tr {
+  position: relative;
+}
+.comptable-big-container table.imbaf_table th[scope="row"] {
+  width: 150px;
+}
+.comptable-big-container table.imbaf_table td.buttons .affilipus-button i {
+  position: static;
+}
+.comptable-big-container table.imbaf_table .product-picture {
+  overflow: hidden;
+}
+.comptable-big-container table.imbaf_table .product-picture .image-container {
+  margin: 10px;
+  background-size: 80% auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-origin: padding-box;
+}
+.comptable-big-container table.imbaf_table .product-picture img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+@media screen and (max-width: 400px) {
+  table.imbaf_table td,
+  table.imbaf_table th {
+    width: 200px;
+    width: 50vw;
+  }
+}

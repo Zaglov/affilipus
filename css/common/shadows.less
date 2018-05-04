@@ -1,0 +1,42 @@
+.shadow1 {
+
+  position: relative;
+  width: 100%;
+
+}
+
+.shadow1:after, .shadow1:before {
+
+
+  z-index: 1;
+  position:absolute;
+  content:" ";
+  bottom:15px;
+
+  display:block;
+
+
+  height: 100px;
+  width: 250px;
+  left: 15px;
+
+  -webkit-box-shadow: 0 20px 15px #ada19d;
+  -moz-box-shadow: 0 20px 15px #ada19d;
+  box-shadow: 0 20px 15px #ada19d;
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+
+}
+
+.shadow1:before {
+
+-webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  transform: rotate(6deg);
+
+  right: 15px;
+  left: auto;
+
+
+}

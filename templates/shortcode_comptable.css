@@ -1,0 +1,117 @@
+.imbaf-comptable {
+  font-size: 14px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #fff;
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+.imbaf-comptable tr td,
+.imbaf-comptable tr th {
+  border: 1px solid #ccc !important;
+  padding: 5px;
+}
+.imbaf-comptable .borderless {
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+.imbaf-comptable .imbaf-price-container {
+  padding: 10px;
+}
+.imbaf-comptable .product-picture {
+  overflow: hidden;
+}
+.imbaf-comptable .product-picture .image-container {
+  margin: 10px;
+  background-size: 80% auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-origin: padding-box;
+}
+.imbaf-comptable .product-picture img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+.imbaf-comptable .product-name {
+  line-height: 18px;
+}
+.imbaf-comptable .table-cell-highlight {
+  background-color: #e8f2fe;
+}
+.imbaf-comptable td.buttons .affilipus-button {
+  box-shadow: none;
+}
+.imbaf-comptable td.buttons .affilipus-button i {
+  position: static;
+}
+.imbaf-comptable .preisvergleich_display {
+  position: relative;
+}
+.imbaf-comptable .preisvergleich_display .preisvergleich_toggle_show {
+  display: block;
+}
+.imbaf-comptable .preisvergleich_display .preisvergleich_toggle_hide {
+  display: none;
+}
+.imbaf-comptable .preisvergleich_display .preisvergleich_toggle_hide,
+.imbaf-comptable .preisvergleich_display .preisvergleich_toggle_show {
+  color: #000;
+  text-decoration: none;
+  box-shadow: none;
+}
+.imbaf-comptable .preisvergleich-table {
+  border: 1px solid #ccc;
+  margin: 10px 0 0 0;
+  display: none;
+}
+.imbaf-comptable .preisvergleich-table tr,
+.imbaf-comptable .preisvergleich-table td,
+.imbaf-comptable .preisvergleich-table th {
+  background-color: #fff;
+  border: 0px !important;
+}
+.imbaf-comptable .preisvergleich-table .price-cell {
+  text-align: center;
+}
+.imbaf-comptable .preisvergleich-table .logo-cell {
+  text-align: center;
+}
+.imbaf-comptable .imbaf-price-container .preisvergleich_toggle_show {
+  display: block;
+}
+.imbaf-comptable .imbaf-price-container .preisvergleich_toggle_hide {
+  display: none;
+}
+.imbaf-comptable .imbaf-price-container.preisvergleich-active .preisvergleich-table {
+  display: block;
+}
+.imbaf-comptable .imbaf-price-container.preisvergleich-active .preisvergleich_toggle_show {
+  display: none;
+}
+.imbaf-comptable .imbaf-price-container.preisvergleich-active .preisvergleich_toggle_hide {
+  display: block;
+}
+.comptable-container {
+  background-color: #fff;
+}
+.imbaf-comptable-desktop .preisvergleich-table {
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  margin-top: 10px;
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .comptable-container .imbaf-comptable-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 599px) {
+  .comptable-container .imbaf-comptable-desktop {
+    display: none;
+  }
+}

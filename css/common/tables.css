@@ -1,0 +1,53 @@
+table.imbaf_table {
+  position: relative;
+  z-index: 10;
+  font-family: 'Open Sans', 'Helvetica', sans-serif !important;
+  border-width: 0;
+  font-size: 14px;
+  background-color: #fff;
+  border-color: #ccc;
+}
+table.imbaf_table tr,
+table.imbaf_table th,
+table.imbaf_table td {
+  border-color: #ccc;
+  font-size: 14px;
+  text-align: left;
+}
+table.imbaf_table p {
+  padding: 0px;
+  margin: 0px;
+}
+table.imbaf_table a:link,
+table.imbaf_table a:visited {
+  text-decoration: none;
+  border: none;
+}
+table.imbaf_table .nopadding {
+  padding: 0px;
+}
+table.imbaf_table .nomargin {
+  margin: 0px;
+}
+table.imbaf_table .valign-middle {
+  vertical-align: middle;
+}
+table.imbaf_table .text-centered {
+  text-align: center;
+}
+table.imbaf_table tr {
+  background: #f9f9f9;
+}
+table.imbaf_table tr:nth-child(even) {
+  background: #f0efef;
+}
+table.imbaf_table th {
+  background-color: #fff;
+  color: #333;
+}
+table.imbaf_table td {
+  color: #000;
+}
+.table.imbaf_table.fixed {
+  table-layout: fixed;
+}

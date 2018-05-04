@@ -1,0 +1,31 @@
+.imbaf-price-container span {
+  display: inline-block;
+}
+.imbaf-price-container .label {
+  color: #000;
+  padding: 0px;
+  margin: 0px;
+}
+.imbaf-price-container .label-big,
+.imbaf-price-container .price-big {
+  font-size: 18px;
+  font-weight: bold;
+}
+.imbaf-price-container .percent {
+  color: #b1b1b1;
+}
+.imbaf-price-container .price {
+  color: #b12704;
+}
+.imbaf-price-container .info {
+  font-size: 11px;
+  color: #b1b1b1;
+}
+.imbaf-price-container .prime {
+  width: auto;
+  height: 15px;
+  margin: 3px;
+}
+.imbaf-element-container {
+  margin: 20px 0 50px 0;
+}

@@ -1,0 +1,276 @@
+.comptable-container table.imbaf_table .imbaf-price-container,
+.comptable-big-container table.imbaf_table .imbaf-price-container {
+  padding: 10px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.comptable-container table.imbaf_table .imbaf-price-container .info,
+.comptable-big-container table.imbaf_table .imbaf-price-container .info {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  left: 0;
+}
+.comptable-container table.imbaf_table .imbaf-feature-description .the-description,
+.comptable-big-container table.imbaf_table .imbaf-feature-description .the-description {
+  font-weight: normal;
+  font-size: 10px;
+}
+.comptable-container table.imbaf_table .imbaf-feature-description .the-icon,
+.comptable-big-container table.imbaf_table .imbaf-feature-description .the-icon {
+  width: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.comptable-container table.imbaf_table .imbaf-feature-description .the-icon .property-icon,
+.comptable-big-container table.imbaf_table .imbaf-feature-description .the-icon .property-icon {
+  color: #333;
+  font-size: 18px;
+}
+.comptable-container table.imbaf_table .imbaf-feature-icon.the-icon,
+.comptable-big-container table.imbaf_table .imbaf-feature-icon.the-icon {
+  margin-top: 10px;
+}
+.comptable-container table.imbaf_table .imbaf-feature-description.with-icon .the-meta,
+.comptable-big-container table.imbaf_table .imbaf-feature-description.with-icon .the-meta {
+  padding-left: 5px;
+  display: table-cell;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-features ul,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-features ul {
+  padding: 0 5px;
+  margin: 0;
+  list-style: none !important;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-features ul li,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-features ul li {
+  padding: 0 0 10px 0;
+  margin: 0px;
+  text-align: left;
+  list-style: none !important;
+  position: relative;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade {
+  background-color: #00a2ff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  margin: 10px auto 5px auto;
+  max-width: 100px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: #B4B5B5 1px 1px 1px;
+  -moz-box-shadow: #B4B5B5 1px 1px 1px ;
+  box-shadow: #B4B5B5 1px 1px 1px  ;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade-hr,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade-hr {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-10,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-10,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-11,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-11,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-12,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-12,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-13,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-13,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-14,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-14,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-15,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-15,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-16,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-16,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-17,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-17,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-18,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-18,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-19,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-19 {
+  background-color: #61bd6d;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-20,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-20,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-21,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-21,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-22,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-22,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-23,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-23,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-24,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-24,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-25,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-25,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-26,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-26,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-27,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-27,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-28,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-28,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-29,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-29 {
+  background-color: #00a885;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-30,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-30,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-31,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-31,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-32,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-32,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-33,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-33,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-34,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-34,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-35,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-35,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-36,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-36,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-37,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-37,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-38,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-38,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-39,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-39 {
+  background-color: #2c82c9;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-40,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-40,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-41,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-41,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-42,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-42,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-43,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-43,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-44,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-44,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-45,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-45,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-46,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-46,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-47,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-47,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-48,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-48,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-49,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-49 {
+  background-color: #fac51c;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-50,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-50,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-51,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-51,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-52,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-52,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-53,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-53,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-54,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-54,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-55,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-55,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-56,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-56,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-57,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-57,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-58,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-58,
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-59,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-59 {
+  background-color: #fba026;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-60,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-grade .imbaf-grade.grade-60 {
+  background-color: #e14938;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-rating .star-rating-text,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-rating .star-rating-text {
+  font-size: 10px;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-bool,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-bool {
+  text-align: center;
+  position: relative;
+  padding: 10px 0;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-bool .bool,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-bool .bool {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-bool .bool,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-bool .bool {
+  background-image: url('../../templates/images/check-no.png');
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-bool .bool.bool-true,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-bool .bool.bool-true,
+.comptable-container table.imbaf_table .imbaf-feature-type-bool .bool.bool-on,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-bool .bool.bool-on {
+  background-image: url('../../templates/images/check-yes.png');
+}
+.comptable-container table.imbaf_table .imbaf-feature-type-text,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-text {
+  text-align: center;
+}
+.comptable-container table.imbaf_table .product-name,
+.comptable-big-container table.imbaf_table .product-name {
+  line-height: 18px;
+}
+.comptable-container table.imbaf_table .table-cell-highlight,
+.comptable-big-container table.imbaf_table .table-cell-highlight {
+  background-color: #e8f2fe;
+}
+.comptable-container table.imbaf_table .imbaf-prime-link,
+.comptable-big-container table.imbaf_table .imbaf-prime-link {
+  display: inline-block;
+  text-align: center;
+}
+.comptable-container table.imbaf_table .imbaf-prime-link img,
+.comptable-big-container table.imbaf_table .imbaf-prime-link img {
+  float: none;
+  margin: 0 auto;
+}
+/*
+
+.comptable-container .comptable-big-container table.imbaf_table .imbaf-feature-type-features ul li,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-features ul li {
+
+  padding-left: 20px;
+
+}
+
+
+.comptable-container .comptable-big-container table.imbaf_table .imbaf-feature-type-features ul li:before,
+.comptable-big-container table.imbaf_table .imbaf-feature-type-features ul li:before{
+
+  content: "+";
+  display: block;
+  width: 12px;
+  height: 100%;
+  color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align:center;
+  font-weight:bold;
+
+}*/

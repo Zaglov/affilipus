@@ -1,0 +1,170 @@
+.imbaf-topseller-list {
+  padding: 0px !important;
+  margin: 0px !important;
+  list-style: none !important;
+}
+.imbaf-topseller-list .imbaf-bestseller-indicator {
+  background: #f9ad43;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  font-size: 12px;
+  min-width: 200px;
+  color: #fff;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box {
+  border: 1px solid #ccc;
+  padding: 15px 0 20px 0;
+  margin: 0;
+  border-bottom: 0px;
+  position: relative;
+  font-family: 'Open Sans', 'Helvetica', sans-serif !important;
+  background-color: #fff;
+  z-index: 3;
+  clear: both;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-thumbnail-container {
+  text-align: center;
+  padding: 30px 15px 10px 15px;
+  min-height: 150px;
+  box-sizing: border-box;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-thumbnail-container .imbaf_product_thumbnail {
+  max-width: 200px;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-price-container {
+  padding: 15px 0;
+  font-size: 14px;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-buy-button-container {
+  margin: 0 0 10px 0;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-meta {
+  padding: 15px;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-meta .imbaf-product-name {
+  display: block;
+  border-bottom: 0px;
+  font-size: 23px;
+  line-height: 25px;
+  color: #333;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-meta .imbaf-product-name:hover {
+  color: #000;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-meta .imbaf-product-description {
+  padding: 10px 0 0 0;
+  margin: 0px;
+  font-size: 14px;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-meta .imbaf-product-features {
+  margin: 10px 0 0 0;
+  list-style-type: initial;
+  padding-left: 18px;
+  font-size: 14px;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-pricing {
+  text-align: left;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-pricing .button-buy {
+  min-width: 150px;
+  margin-top: 5px;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-footer:after {
+  content: " ";
+  clear: both;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .imbaf-product-footer {
+  clear: both;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box .button-buy {
+  min-width: 200px;
+  text-align: left;
+}
+.imbaf-topseller-list .star-rating-container {
+  display: inline-block;
+  text-align: left;
+}
+.imbaf-topseller-list .star-rating-container .star-rating,
+.imbaf-topseller-list .star-rating-container .imbaf-star-rating {
+  margin: 5px 0 0 0;
+}
+.imbaf-topseller-list .star-rating-container .star-rating-text {
+  font-size: 10px;
+  text-align: center;
+}
+.imbaf-topseller-list li {
+  list-style: none !important;
+}
+.imbaf-topseller-list li:last-child .imbaf-topseller-list-box {
+  border-bottom: 1px solid #ccc;
+}
+.imbaf-topseller-list .preisvergleich_toggle_hide,
+.imbaf-topseller-list .preisvergleich_toggle_show {
+  color: #333;
+  text-decoration: none;
+  border-bottom: none;
+  box-shadow: none;
+  display: block;
+}
+.imbaf-topseller-list .preisvergleich_display,
+.imbaf-topseller-list .preisvergleich_toggle_hide {
+  display: none;
+}
+.imbaf-topseller-list .preisvergleich-table {
+  margin: 10px 0;
+}
+.imbaf-topseller-list .preisvergleich-table .partner_logo {
+  max-height: 40px;
+}
+.imbaf-topseller-list .preisvergleich-table .logo-cell {
+  text-align: center;
+}
+.imbaf-topseller-list .preisvergleich-table .price-cell {
+  text-align: center;
+}
+.imbaf-topseller-list .buy-cell {
+  background-color: orange;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+50,f8b500+51,fbdf93+100;Orange+3D+%235 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcd467+0,f9ad43+100 */
+  background: #fcd467;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fcd467 0%, #f9ad43 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fcd467 0%, #f9ad43 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fcd467 0%, #f9ad43 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcd467', endColorstr='#f9ad43', GradientType=0);
+  /* IE6-9 */
+  position: relative;
+}
+.imbaf-topseller-list .buy-cell a:link,
+.imbaf-topseller-list .buy-cell a:visited {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 0;
+  box-shadow: none;
+  text-align: center;
+  display: block;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box.preisvergleich-active .preisvergleich_display,
+.imbaf-topseller-list .imbaf-topseller-list-box.preisvergleich-active .preisvergleich_toggle_hide {
+  display: block;
+}
+.imbaf-topseller-list .imbaf-topseller-list-box.preisvergleich-active .preisvergleich_toggle_show {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .imbaf-topseller-list-box .imbaf-product-thumbnail-container {
+    float: left;
+    width: 230px;
+  }
+  .imbaf-topseller-list-box .imbaf-product-meta {
+    padding-left: 250px !important;
+  }
+}

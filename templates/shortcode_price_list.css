@@ -1,0 +1,23 @@
+.imbaf_price_list {
+  width: 100% !important;
+  margin-top: 20px;
+}
+.imbaf_price_list .imbaf-price-container {
+  padding: 10px;
+  text-align: right;
+}
+.imbaf_price_list .partnerlogo {
+  max-width: 150px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+.imbaf_price_list .flag {
+  padding-top: 10px;
+}
+.imbaf_price_list .flag img {
+  width: 20px;
+  height: auto;
+  margin: 0;
+}
