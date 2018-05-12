@@ -3,11 +3,11 @@
 /*
 Plugin Name: Affilipus
 Description: Affilipus - Affiliate Marketing Made Easy
-Version: 1.9.2
+Version: 1.9.3
 Text Domain: imb_affiliate
 */
 
-define( 'IMBAF_VERSION', '1.9.2' );
+define( 'IMBAF_VERSION', '1.9.3' );
 
 use imbaa\Affilipus\Entities\AffilipusProduct;
 use imbaa\Affilipus\Entities\AffilipusShop;

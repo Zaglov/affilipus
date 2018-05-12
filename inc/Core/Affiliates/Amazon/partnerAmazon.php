@@ -1260,7 +1260,9 @@ class partnerAmazon extends \imbaa\Affilipus\Core\Affiliates\affiliatePartner {
 
 		$products = $wpdb->get_results($product_query, ARRAY_A);
 
-		$products = array_unique($products);
+
+        $products = array_map("unserialize", array_unique(array_map("serialize", $products)));
+
 
         if(count($products) != 0 && count($products) > $args['limit']){
 
